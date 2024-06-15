@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #D9D9D9;
+}
+
+.navImg{
+    width: 15px;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    margin-left: 12px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: #070707;
+    color: white;
+    width: 750px;
+    height: 50px;
+    border-radius: 44px;
+}
+
+.navBtn{
+    background-color: #FFFFFF;
+    width: 100px;
+    height: 68%;
+    border-radius: 44px;
+    margin-left: 12px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: all ease .7s;
+}
+
+.navBtn:hover{
+    box-shadow: 10px 10px 10px #D9D9D9;
+}
+
+.preBtn{
+    background-color: #FFFFFF;
+    margin-left: 90px;
+    border-radius: 44px;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+    height: 68%;
+    width: 25%;
+    margin-right: 20px;
+    border: none;
+    background-image: linear-gradient(to right, rgb(255, 102, 0), white, rgb(1, 160, 1));
+    transition: all ease .7s;
+    cursor: pointer;
+}
+
+.preBtn:hover{
+    box-shadow: 10px 10px 10px white;
+}
+
+.neetInfo{
+    display:block;
+    margin: 15%;
+    margin-left: 30px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.study{
+    margin-top: 10px;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #070707;
+    color: #D9D9D9;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#imgg{
+    float: right;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 12px 12px 12px #f3efef;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
